@@ -17,8 +17,8 @@ export const Container = styled.div`
         display: block;
         text-align: center;
         border-radius: 25px;
-        /* padding: 1rem 0.5rem; */
-        font-size: 15px;
+        padding: 1rem 0.5rem;
+        font-size: 18px;
         background: #999999;
         color: rgba(255, 255, 255, 0.6);
         transition: 250ms ease all;
