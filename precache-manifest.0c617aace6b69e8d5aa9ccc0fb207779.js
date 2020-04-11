@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "796f8bd5c9e1c8d60a6d946b293405dc",
+    "revision": "116bf2d1fcf5b66010afeb23d4d02804",
     "url": "/DEPAPP/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DEPAPP/static/js/2.6b4040f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc73febdb7889dbc3dce",
-    "url": "/DEPAPP/static/js/main.870d579a.chunk.js"
+    "revision": "cdd997ce0b9a6f3d747f",
+    "url": "/DEPAPP/static/js/main.3c48dbdf.chunk.js"
   },
   {
     "revision": "143b627e2ad61d1cc8ca",
