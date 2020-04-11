@@ -78,7 +78,7 @@ export default function Main() {
         checked: false,
         qtt: 0,
       });
-
+      loadList();
       setNewCat('');
     }
   };
@@ -96,7 +96,7 @@ export default function Main() {
         <div>
           <input
             type="text"
-            placeholder="adicionar nova categoria"
+            placeholder="  Adicionar nova categoria"
             onChange={handleInputCatChange}
             value={newCat}
           />
@@ -108,7 +108,7 @@ export default function Main() {
         <div>
           <input
             type="text"
-            placeholder="adicionar novo item"
+            placeholder="  Adicionar novo item"
             onChange={handleInputChange}
             value={newItem}
           />

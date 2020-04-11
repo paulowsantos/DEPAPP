@@ -9,7 +9,7 @@ export const Container = styled.div`
   margin: 80px auto;
 
   h1 {
-    font-size: 20px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -21,12 +21,14 @@ export const Form = styled.div`
   div {
     display: flex;
     flex-direction: row;
+    margin: 5px;
 
     input {
       flex: 1;
       border: 1px solid #eee;
       border-radius: 4px;
       font-size: 16px;
+      padding: 5px;
     }
   }
 `;
@@ -51,8 +53,17 @@ export const List = styled.ul`
     padding: 15px 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+
+    input {
+      padding: 2px;
+    }
+
+    span {
+      margin-left: 10px;
+      font-size: 16px;
+    }
 
     & + li {
       border-top: 1px solid #eee;

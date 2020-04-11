@@ -8,7 +8,7 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Main} />
+        <Route path="/DEPAPP" exact component={Main} />
         <Route path="/addcat" component={AddCategory} />
       </Switch>
     </BrowserRouter>

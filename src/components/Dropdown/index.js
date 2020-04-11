@@ -30,7 +30,7 @@ export default function Dropdown(props) {
               : { color: '#000' }
           }
         >
-          {title_}
+          <h3>{title_}</h3>
         </div>
         {listOpen ? (
           <MdKeyboardArrowUp size={20} />

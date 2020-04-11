@@ -8,7 +8,7 @@ export const Container = styled.div`
     transform: scale(0);
     > li {
       margin-top: 0.5rem;
-      margin-left: -20px;
+      margin-left: 20px;
       margin-right: 20px;
       transition: 250ms cubic-bezier(0.42, 0.83, 0.49, 1.35) transform;
       transform: scale(0);
@@ -31,7 +31,7 @@ export const Container = styled.div`
       }
     }
   }
-  ${props =>
+  ${(props) =>
     props.listOpen &&
     css`
       > p {
@@ -70,6 +70,6 @@ export const Header = styled.div`
   outline: none;
 
   div {
-    font-size: 16px;
+    margin: 0px auto;
   }
 `;
