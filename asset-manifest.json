@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/DEPAPP/static/js/main.3c48dbdf.chunk.js",
-    "main.js.map": "/DEPAPP/static/js/main.3c48dbdf.chunk.js.map",
+    "main.js": "/DEPAPP/static/js/main.3c019390.chunk.js",
+    "main.js.map": "/DEPAPP/static/js/main.3c019390.chunk.js.map",
     "runtime-main.js": "/DEPAPP/static/js/runtime-main.b6a9d1d9.js",
     "runtime-main.js.map": "/DEPAPP/static/js/runtime-main.b6a9d1d9.js.map",
-    "static/js/2.6b4040f8.chunk.js": "/DEPAPP/static/js/2.6b4040f8.chunk.js",
-    "static/js/2.6b4040f8.chunk.js.map": "/DEPAPP/static/js/2.6b4040f8.chunk.js.map",
+    "static/js/2.213eb3fa.chunk.js": "/DEPAPP/static/js/2.213eb3fa.chunk.js",
+    "static/js/2.213eb3fa.chunk.js.map": "/DEPAPP/static/js/2.213eb3fa.chunk.js.map",
     "index.html": "/DEPAPP/index.html",
-    "precache-manifest.0c617aace6b69e8d5aa9ccc0fb207779.js": "/DEPAPP/precache-manifest.0c617aace6b69e8d5aa9ccc0fb207779.js",
+    "precache-manifest.f575a9be4ca8f7844a7ee319ecd260af.js": "/DEPAPP/precache-manifest.f575a9be4ca8f7844a7ee319ecd260af.js",
     "service-worker.js": "/DEPAPP/service-worker.js",
-    "static/js/2.6b4040f8.chunk.js.LICENSE.txt": "/DEPAPP/static/js/2.6b4040f8.chunk.js.LICENSE.txt"
+    "static/js/2.213eb3fa.chunk.js.LICENSE.txt": "/DEPAPP/static/js/2.213eb3fa.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6a9d1d9.js",
-    "static/js/2.6b4040f8.chunk.js",
-    "static/js/main.3c48dbdf.chunk.js"
+    "static/js/2.213eb3fa.chunk.js",
+    "static/js/main.3c019390.chunk.js"
   ]
 }
