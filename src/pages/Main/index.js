@@ -4,6 +4,7 @@ import { FaPlus } from 'react-icons/fa';
 import { Container, Form, AddButton, List } from './styles';
 import api from '../../services/api';
 import Dropdown from '../../components/Dropdown';
+import Checkbox from '../../components/Checkbox';
 
 export default function Main() {
   const [newItem, setNewItem] = useState();
@@ -122,13 +123,13 @@ export default function Main() {
       <List>
         {newArr.map((item) => (
           <li key={item.date}>
-            <input
-              name="teste"
-              type="checkbox"
-              checked={item.checked}
-              onChange={() => handleChangeCheck(item.date, !item.checked)}
-            />
-            <span>{item.item}</span>
+            <label>
+              <Checkbox
+                checked={item.checked}
+                onChange={() => handleChangeCheck(item.date, !item.checked)}
+              />
+              <span>{item.item}</span>
+            </label>
           </li>
         ))}
       </List>

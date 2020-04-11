@@ -56,10 +56,6 @@ export const List = styled.ul`
     /* justify-content: center; */
     align-items: center;
 
-    input {
-      padding: 2px;
-    }
-
     span {
       margin-left: 10px;
       font-size: 16px;
