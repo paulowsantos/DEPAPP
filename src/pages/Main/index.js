@@ -86,7 +86,7 @@ export default function Main() {
 
   return (
     <Container>
-      <h1>Selecione a categoria:</h1>
+      <h1>Selecione a paulo:</h1>
       <Dropdown
         title={selectValue}
         list={list}
