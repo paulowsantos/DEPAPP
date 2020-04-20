@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import { FaPlus } from 'react-icons/fa';
-import { Container, Form, AddButton, List } from './styles';
+import { Container, Form, AddButton, List, RemoveButton } from './styles';
 import api from '../../services/api';
 import Dropdown from '../../components/Dropdown';
 import Checkbox from '../../components/Checkbox';
@@ -84,6 +84,13 @@ export default function Main() {
     }
   };
 
+  const handleDeleteItem = async (date) => {
+    await api.post('/deleteItem', {
+      date,
+    });
+    loadList();
+  };
+
   return (
     <Container>
       <h1>Selecione a categoria:</h1>
@@ -102,7 +109,7 @@ export default function Main() {
             value={newCat}
           />
 
-          <AddButton type="button" onClick={handleAddCat}>
+          <AddButton onClick={handleAddCat}>
             <FaPlus color="#FFF" size={14} />
           </AddButton>
         </div>
@@ -114,7 +121,7 @@ export default function Main() {
             value={newItem}
           />
 
-          <AddButton type="button" onClick={handleAddItem}>
+          <AddButton onClick={handleAddItem}>
             <FaPlus color="#FFF" size={14} />
           </AddButton>
         </div>
@@ -123,13 +130,16 @@ export default function Main() {
       <List>
         {newArr.map((item) => (
           <li key={item.date}>
-            <label>
+            <div>
               <Checkbox
                 checked={item.checked}
                 onChange={() => handleChangeCheck(item.date, !item.checked)}
               />
               <span>{item.item}</span>
-            </label>
+            </div>
+            <RemoveButton onClick={() => handleDeleteItem(item.date)}>
+              Remove
+            </RemoveButton>
           </li>
         ))}
       </List>

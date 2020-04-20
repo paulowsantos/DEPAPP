@@ -33,7 +33,9 @@ export const Form = styled.div`
   }
 `;
 
-export const AddButton = styled.button`
+export const AddButton = styled.button.attrs({
+  type: 'button',
+})`
   background: #666;
   border: 0;
   padding: 0 15px;
@@ -53,7 +55,7 @@ export const List = styled.ul`
     padding: 15px 0;
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 
     span {
@@ -65,4 +67,15 @@ export const List = styled.ul`
       border-top: 1px solid #eee;
     }
   }
+`;
+
+export const RemoveButton = styled.button.attrs({
+  type: 'button',
+})`
+  background: #666;
+  padding: 5px 10px;
+  outline: none;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
 `;
